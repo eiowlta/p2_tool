@@ -1,0 +1,12 @@
+par - psp archive
+ear - event archive
+sear - sound effect archive
+spg - sprite group
+asg - animated sprite group
+efct - effect grouping
+ppa - archive containing pphd, pppg, pptn, ppva
+adpcm - some number of adpcm samples.  paired with a ppa for more info
+txar - texture archive used for event textures
+txar2 - used for dungeon textures, similar to txar but slightly different..
+tod2 - tod + unknown
+pdemo - bnp of msg used in P_DEMO (persona summoning text)

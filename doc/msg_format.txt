@@ -1,0 +1,33 @@
+message format used to represent text with commands
+
+message_title:
+
+message title, followed by single colon and then newline marks the start of the message
+name may or may not be significant
+in event script, names must used appropriately in the script, but are otherwise insignificant
+string table names include the index, very important
+newlines and whitespace are included.  newline is automatically converted to corresponding [nl]
+messages must be terminated by [end]
+one or more newlines allowed between messages
+
+any text between messages that do not end with : are ignored, can be used for comments
+might be worth adding or enforcing some comment character, possible #?
+
+commands
+[cmd]
+[cmd(with, args)]
+
+arbitrary binary data can be added with an escape: \x0000
+must be 16 bits hex
+
+if you need '[' in text, it must be escaped.  ie type \[
+for the same reason, if you need \ escape as \\
+
+'\ ' maps to the [pxl] command, ie 1 pixel space.  it's technically a character, but use it sparingly as it's "expensive"
+
+a tab does not currently map to [tab] because it's not supported in the font encoding.  maybe it should be added?
+
+not all commands are always available, there's like 12 different render functions and they don't all implement everything, just fyi
+
+carriage return is ignored, ensure you at least have a newline
+

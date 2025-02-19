@@ -1,0 +1,1202 @@
+{
+	"0": {
+		"character": "",
+ 		"name": ""
+	},
+ 	"1": {
+ 		"character": "Maya Amano",
+ 		"name": "maya_regular"
+ 	},
+ 	"2": {
+ 		"character": "Maya Amano",
+ 		"name": "maya_smile"	
+ 	},
+ 	"3": {
+ 		"character": "Maya Amano",
+ 		"name": "maya_anger"
+ 	}, 
+ 	"4": {
+ 		"character": "Maya Amano",
+ 		"name": "maya_sorrow"
+ 	},
+ 	"5": {
+ 		"character": "Maya Amano",
+ 		"name": "maya_surprised"	
+ 	},
+ 	"6": {
+ 		"character": "Maya Amano",
+		"name": "maya_pain"
+ 	},
+ 	"7": {
+ 		"character": "Maya Amano",
+		"name": "maya_perplexed"
+ 	},
+ 	"8": {
+ 		"character": "Maya Amano",
+		"name": "maya_sad"
+ 	},
+ 	"9": {
+ 		"character": "Maya Amano",
+		"name": "maya_crying"
+ 	},
+ 	"10": {
+ 		"character": "Maya Amano",
+		"name": "maya_embarrassed"
+ 	},
+ 	"11": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_regular"
+ 	},
+ 	"12": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_smile"
+ 	},
+ 	"13": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_anger"
+ 	},
+ 	"14": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_surprised"
+ 	},
+ 	"15": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_pain"
+ 	},
+ 	"16": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_sad"
+ 	},
+ 	"17": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_sad_single_tear"
+ 	},
+ 	"18": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_anguish"
+ 	},
+ 	"19": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_absentminded"
+ 	},
+ 	"20": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_absentminded_blood_tear"
+ 	},
+ 	"21": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_eyes_closed"
+ 	},
+ 	"22": {
+ 		"character": "Tatsuya Suou",
+		"name": "tatsuya_difficult_smile"
+ 	},
+ 	"23": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_regular"
+ 	},
+ 	"24": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_smile"
+ 	},
+ 	"25": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_anger"
+ 	},
+ 	"26": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_sorrow"
+ 	},
+ 	"27": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_surprised"
+ 	},
+ 	"28": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_pain"
+ 	},
+ 	"29": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_perplexed"
+ 	},
+ 	"30": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_sad"
+ 	},
+ 	"31": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_sigh"
+ 	},
+ 	"32": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_joker_user"
+ 	},
+ 	"33": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_regular"
+ 	},
+ 	"34": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_smile"
+ 	},
+ 	"35": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_anger"
+ 	},
+ 	"36": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_sorrow"
+ 	},
+ 	"37": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_surprised"
+ 	},
+ 	"38": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_pain"
+ 	},
+ 	"39": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_perplexed"
+ 	},
+ 	"40": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_embarrassed"
+ 	},
+ 	"41": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_sad"
+ 	},
+ 	"42": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_infectious_crying"
+ 	},
+ 	"43": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_absentminded"
+ 	},
+ 	"44": {
+ 		"character": "Baofu",
+		"name": "baofu_regular"
+ 	},
+ 	"45": {
+ 		"character": "Baofu",
+		"name": "baofu_smile"
+ 	},
+ 	"46": {
+ 		"character": "Baofu",
+		"name": "baofu_anger"
+ 	},
+ 	"47": {
+ 		"character": "Baofu",
+		"name": "baofu_surprised"
+ 	},
+ 	"48": {
+ 		"character": "Baofu",
+		"name": "baofu_sad"
+ 	},
+ 	"49": {
+ 		"character": "Baofu",
+		"name": "baofu_cynical_smile"
+ 	},
+ 	"50": {
+ 		"character": "Baofu",
+		"name": "baofu_overwhelmed"
+ 	},
+ 	"51": {
+ 		"character": "Baofu",
+		"name": "baofu_self_deprecation"
+ 	},
+ 	"52": {
+ 		"character": "Baofu",
+		"name": "baofu_anguish"
+ 	},
+ 	"53": {
+ 		"character": "Baofu",
+		"name": "baofu_ponder"
+ 	},
+ 	"54": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_regular"
+ 	},
+ 	"55": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_smile"
+ 	},
+ 	"56": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_anger"
+ 	},
+ 	"57": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_sorrow"
+ 	},
+ 	"58": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_surprised"
+ 	},
+ 	"59": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_sad"
+ 	},
+ 	"60": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_ponder"
+ 	},
+ 	"61": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_regular"
+ 	},
+ 	"62": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_smile"
+ 	},
+ 	"63": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_anger"
+ 	},
+ 	"64": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_sorrow"
+ 	},
+ 	"65": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_surprised"
+ 	},
+ 	"66": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_sad"
+ 	},
+ 	"67": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_ponder"
+ 	},
+ 	"68": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_frightened"
+ 	},
+ 	"69": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_forced_smile"
+ 	},
+ 	"70": {
+ 		"character": "Gozen",
+		"name": "gozen"
+ 	},
+ 	"71": {
+ 		"character": "Tatsuzou Sudou",
+		"name": "tatsuzou_regular"
+ 	},
+ 	"72": {
+ 		"character": "Tatsuzou Sudou",
+		"name": "tatsuzou_smile"
+ 	},
+ 	"73": {
+ 		"character": "Tatsuya Sudou",
+		"name": "tatsuya_sudou_mask"
+ 	},
+ 	"74": {
+ 		"character": "Tatsuya Sudou",
+		"name": "tatsuya_sudou_regular"
+ 	},
+ 	"75": {
+ 		"character": "Tatsuya Sudou",
+		"name": "tatsuya_sudou_hatred"
+ 	},
+ 	"76": {
+ 		"character": "Yung Pao",
+		"name": "yung_pao"
+ 	},
+ 	"77": {
+ 		"character": "Captain Shimazu",
+		"name": "shimazu_normal"
+ 	},
+ 	"78": {
+ 		"character": "Captain Shimazu",
+		"name": "shimazu_smile"
+ 	},
+ 	"79": {
+ 		"character": "Chief Togashi",
+		"name": "togashi_regular"
+ 	},
+ 	"80": {
+ 		"character": "Chief Togashi",
+		"name": "togashi_sneak"
+ 	},
+ 	"81": {
+ 		"character": "Takahisa Kandori",
+		"name": "kandori_regular"
+ 	},
+ 	"82": {
+ 		"character": "Takahisa Kandori",
+		"name": "kandori_self_deprecation"
+ 	},
+ 	"83": {
+ 		"character": "Chizuru Ishigami",
+		"name": "chizuru_regular"
+ 	},
+ 	"84": {
+ 		"character": "Chizuru Ishigami",
+		"name": "chizuru_calm"
+ 	},
+ 	"85": {
+ 		"character": "Stalker",
+		"name": "stalker_regular"
+ 	},
+ 	"86": {
+ 		"character": "Stalker",
+		"name": "stalker_more_bandages"
+ 	},
+ 	"87": {
+ 		"character": "Junko Kurosu",
+		"name": "junko_joker_user"
+ 	},
+ 	"88": {
+ 		"character": "Ginji Sasaki",
+		"name": "ginji_brainwashed"
+ 	},
+ 	"89": {
+ 		"character": "Ginji Sasaki",
+		"name": "ginji_joker_user"
+ 	},
+ 	"90": {
+ 		"character": "General Sugawara",
+		"name": "sugawara_regular"
+ 	},
+ 	"91": {
+ 		"character": "Editor-in-Chief Mizuno",
+		"name": "mizuno_regular"
+ 	},
+ 	"92": {
+ 		"character": "Anna Yoshizaka",
+		"name": "anna_regular"
+ 	},
+ 	"93": {
+ 		"character": "Noriko Katayama",
+		"name": "noriko_regular"
+ 	},
+ 	"94": {
+ 		"character": "Noriko Katayama",
+		"name": "noriko_joker_user"
+ 	},
+ 	"95": {
+ 		"character": "Matsuoka",
+		"name": "matsuoka_regular"
+ 	},
+ 	"96": {
+ 		"character": "Matsuoka",
+		"name": "matsuoka_smile"
+ 	},
+ 	"97": {
+ 		"character": "Jun Kurosu",
+		"name": "metal_jun"
+ 	},
+ 	"98": {
+ 		"character": "Lisa Silverman",
+		"name": "metal_lisa"
+ 	},
+ 	"99": {
+ 		"character": "Eikichi Mishina",
+		"name": "metal_eikichi"
+ 	},
+ 	"100": {
+ 		"character": "Maki Sonomura",
+		"name": "maki_recollection"
+ 	},
+ 	"101": {
+ 		"character": "Eriko Kirishima",
+		"name": "elly_recollection"
+ 	},
+ 	"102": {
+ 		"character": "Kei Nanjo",
+		"name": "nanjo_recollection"
+ 	},
+ 	"103": {
+ 		"character": "Persona 1 Protagonist",
+		"name": "p1_hero_recollection"
+ 	},
+ 	"104": {
+ 		"character": "Persona 1 Protagonist",
+		"name": "p1_hero_mockery"
+ 	},
+ 	"105": {
+ 		"character": "Hiroki Sugimoto",
+		"name": "sugimoto_joker_user"
+ 	},
+ 	"106": {
+ 		"character": "Miki Asai",
+		"name": "miki"
+ 	},
+ 	"107": {
+ 		"character": "Nyarlathotep",
+		"name": "nyar_tatsuya_mockery"
+ 	},
+ 	"108": {
+ 		"character": "Nyarlathotep",
+		"name": "nyar_tatsuya_shocked"
+ 	},
+ 	"109": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_juvenile"
+ 	},
+ 	"110": {
+ 		"character": "Katsuya Suou",
+		"name": "shadow_katsuya"
+ 	},
+ 	"111": {
+ 		"character": "Maya Amano",
+		"name": "shadow_maya"
+ 	},
+ 	"112": {
+ 		"character": "Ulala Serizawa",
+		"name": "shadow_ulala"
+ 	},
+ 	"113": {
+ 		"character": "Baofu",
+		"name": "shadow_baofu"
+ 	},
+ 	"114": {
+ 		"character": "Barkeeper",
+		"name": "parabellum_npc"
+ 	},
+ 	"115": {
+ 		"character": "Jewelry Designer",
+		"name": "padparacha_npc"
+ 	},
+ 	"116": {
+ 		"character": "Bartender",
+		"name": "ebony_npc"
+ 	},
+ 	"117": {
+ 		"character": "Salam Ladeen",
+		"name": "salam_ladeen"
+ 	},
+ 	"118": {
+ 		"character": "Miscellaneous",
+		"name": "photos_of_nanjo_elly"
+ 	},
+ 	"119": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_1"
+ 	},
+ 	"120": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_2"
+ 	},
+ 	"121": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_3"
+ 	},
+ 	"122": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_4"
+ 	},
+ 	"123": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_5"
+ 	},
+ 	"124": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_6"
+ 	},
+ 	"125": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_7"
+ 	},
+ 	"126": {
+ 		"character": "Miscellaneous",
+		"name": "fengshui_nr_8"
+ 	},
+ 	"127": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_regular_is"
+ 	},
+ 	"128": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_smile_is"
+ 	},
+ 	"129": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_anger_is"
+ 	},
+ 	"130": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_sorrow_is"
+ 	},
+ 	"131": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_cry_is"
+ 	},
+ 	"132": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_surprised_is"
+ 	},
+ 	"133": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_pain_is"
+ 	},
+ 	"134": {
+ 		"character": "Tatsuya Suou (Innocent Sin)",
+		"name": "tatsuya_embarrassed_is"
+ 	},
+ 	"135": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_regular_is"
+ 	},
+ 	"136": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_smile_is"
+ 	},
+ 	"137": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_anger_is"
+ 	},
+ 	"138": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_sorrow_is"
+ 	},
+ 	"139": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_cry_is"
+ 	},
+ 	"140": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_surprised_is"
+ 	},
+ 	"141": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_pain_is"
+ 	},
+ 	"142": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_scared_is"
+ 	},
+ 	"143": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_unamazed_is"
+ 	},
+ 	"144": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_dying_is"
+ 	},
+ 	"145": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_teen_smile"
+ 	},
+ 	"146": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_teen_sorrow"
+ 	},
+ 	"147": {
+ 		"character": "Maya Amano (Innocent Sin)",
+		"name": "maya_teen_scared"
+ 	},
+ 	"148": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_regular_is"
+ 	},
+ 	"149": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_smile_is"
+ 	},
+ 	"150": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_anger_is"
+ 	},
+ 	"151": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_sorrow_is"
+ 	},
+ 	"152": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_crying_is"
+ 	},
+ 	"153": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_surprised_is"
+ 	},
+ 	"154": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_flower_is"
+ 	},
+ 	"155": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_anguish_is"
+ 	},
+ 	"156": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_tearful_smile_is"
+ 	},
+ 	"157": {
+ 		"character": "Jun Kurosu (Innocent Sin)",
+		"name": "jun_makeup_is"
+ 	},
+ 	"158": {
+ 		"character": "Joker (Innocent Sin)",
+		"name": "joker_is"
+ 	},
+ 	"159": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_regular_is"
+ 	},
+ 	"160": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_smile_is"
+ 	},
+ 	"161": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_anger_is"
+ 	},
+ 	"162": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_sorrow_is"
+ 	},
+ 	"163": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_crying_is"
+ 	},
+ 	"164": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_surprised_is"
+ 	},
+ 	"165": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_pain_is"
+ 	},
+ 	"166": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_forced_smile_is"
+ 	},
+ 	"167": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_unamazed_is"
+ 	},
+ 	"168": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_embarrassed_is"
+ 	},
+ 	"169": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_tearful_smile_is"
+ 	},
+ 	"170": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_idol_regular_is"
+ 	},
+ 	"171": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_idol_smile_is"
+ 	},
+ 	"172": {
+ 		"character": "Lisa Silverman (Innocent Sin)",
+		"name": "lisa_idol_surprised_is"
+ 	},
+ 	"173": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_regular_is"
+ 	},
+ 	"174": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_smile_is"
+ 	},
+ 	"175": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_anger_is"
+ 	},
+ 	"176": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_sorrow_is"
+ 	},
+ 	"177": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_crying_is"
+ 	},
+ 	"178": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_surprised_is"
+ 	},
+ 	"179": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_pain_is"
+ 	},
+ 	"180": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_unamazed_is"
+ 	},
+ 	"181": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_tearful_smile_is"
+ 	},
+ 	"182": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_narcistic_is"
+ 	},
+ 	"183": {
+ 		"character": "Eikichi Mishina (Innocent Sin)",
+		"name": "eikichi_bleeding_is"
+ 	},
+ 	"184": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_regular_is"
+ 	},
+ 	"185": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_smile_is"
+ 	},
+ 	"186": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_anger_is"
+ 	},
+ 	"187": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_sorrow_is"
+ 	},
+ 	"188": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_crying_is"
+ 	},
+ 	"189": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_surprised_is"
+ 	},
+ 	"190": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_embarrassed_is"
+ 	},
+ 	"191": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_astonished_is"
+ 	},
+ 	"192": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_determined_is"
+ 	},
+ 	"193": {
+ 		"character": "Yukino Mayuzumi (Innocent Sin)",
+		"name": "yukino_mind_lost_is"
+ 	},
+ 	"194": {
+ 		"character": "Maki Sonomura",
+		"name": "maki"
+ 	},
+ 	"195": {
+ 		"character": "Hidehiko Uesugi",
+		"name": "brown"
+ 	},
+ 	"196": {
+ 		"character": "Reiji Kido",
+		"name": "reiji"
+ 	},
+ 	"197": {
+ 		"character": "Saeko Takami",
+		"name": "ms_saeko"
+ 	},
+ 	"198": {
+ 		"character": "Maya Okamura - Ms Ideal",
+		"name": "ms_ideal_regular"
+ 	},
+ 	"199": {
+ 		"character": "Maya Okamura - Ms Ideal",
+		"name": "ms_ideal_sorrow"
+ 	},
+ 	"200": {
+ 		"character": "Maya Okamura - Ms Ideal",
+		"name": "ms_ideal_surprised"
+ 	},
+ 	"201": {
+ 		"character": "Akinari Kashihara",
+		"name": "kashihara"
+ 	},
+ 	"202": {
+ 		"character": "Junko Kurosu",
+		"name": "junko"
+ 	},
+ 	"203": {
+ 		"character": "Takashi Hanya",
+		"name": "hanya"
+ 	},
+ 	"204": {
+ 		"character": "Mami Shibata",
+		"name": "mami_student"
+ 	},
+ 	"205": {
+ 		"character": "Mami Shibata",
+		"name": "mami_idol"
+ 	},
+ 	"206": {
+ 		"character": "Miho Ogishima",
+		"name": "miho_student"
+ 	},
+ 	"207": {
+ 		"character": "Miho Ogishima",
+		"name": "miho_idol"
+ 	},
+ 	"208": {
+ 		"character": "Miyabi Hanakouji",
+		"name": "miyabi"
+ 	},
+ 	"209": {
+ 		"character": "Yasuo Inoue",
+		"name": "yasuo"
+ 	},
+ 	"210": {
+ 		"character": "Hiroki Sugimoto",
+		"name": "sugimoto"
+ 	},
+ 	"211": {
+ 		"character": "Ken",
+		"name": "ken"
+ 	},
+ 	"212": {
+ 		"character": "Youichi Makimura",
+		"name": "makimura_regular"
+ 	},
+ 	"213": {
+ 		"character": "Shunsuke Fujii",
+		"name": "shunsuke"
+ 	},
+ 	"214": {
+ 		"character": "Ixquic",
+		"name": "ixquic"
+ 	},
+ 	"215": {
+ 		"character": "Meteor Masa",
+		"name": "meteor_masa"
+ 	},
+ 	"216": {
+ 		"character": "Nyarlathotep",
+		"name": "fake_kashihara_smile"
+ 	},
+ 	"217": {
+ 		"character": "Nyarlathotep",
+		"name": "fake_kashihara_mockery"
+ 	},
+ 	"218": {
+ 		"character": "Tatsuya Sudou",
+		"name": "king_leo_mask"
+ 	},
+ 	"219": {
+ 		"character": "Tatsuya Sudou",
+		"name": "king_leo_face"
+ 	},
+ 	"220": {
+ 		"character": "Tatsuya Sudou",
+		"name": "tatsuya_sudou_flashback"
+ 	},
+ 	"221": {
+ 		"character": "Ginji Sasaki",
+		"name": "ginji_normal"
+ 	},
+ 	"222": {
+ 		"character": "Philemon",
+		"name": "philemon_normal"
+ 	},
+ 	"223": {
+ 		"character": "Philemon",
+		"name": "philemon_face"
+ 	},
+ 	"224": {
+ 		"character": "Igor",
+		"name": "igor"
+ 	},
+ 	"225": {
+ 		"character": "Nameless",
+		"name": "nameless"
+ 	},
+ 	"226": {
+ 		"character": "Belladonna",
+		"name": "belladonna"
+ 	},
+ 	"227": {
+ 		"character": "Demon Painter",
+		"name": "demon_painter"
+ 	},
+ 	"228": {
+ 		"character": "Trish",
+		"name": "trish"
+ 	},
+ 	"229": {
+ 		"character": "Chief Todoroki",
+		"name": "todoroki"
+ 	},
+ 	"230": {
+ 		"character": "Tamaki Uchida",
+		"name": "tamaki_uchida"
+ 	},
+ 	"231": {
+ 		"character": "Kenta Yokouchi",
+		"name": "toro"
+ 	},
+ 	"232": {
+ 		"character": "Toku",
+		"name": "toku"
+ 	},
+ 	"233": {
+ 		"character": "Chika Ueda",
+		"name": "chikarin"
+ 	},
+ 	"234": {
+ 		"character": "Sumaru Genie",
+		"name": "sumaru_genie"
+ 	},
+ 	"235": {
+ 		"character": "Baofu",
+		"name": "baofu_rumormonger"
+ 	},
+ 	"236": {
+ 		"character": "Shiraishi Lady",
+		"name": "shiraishi"
+ 	},
+ 	"237": {
+ 		"character": "Whistler",
+		"name": "whistler"
+ 	},
+ 	"238": {
+ 		"character": "Kankichi Mishina",
+		"name": "kankichi"
+ 	},
+ 	"239": {
+ 		"character": "Mr. Tomi",
+		"name": "tomi"
+ 	},
+ 	"240": {
+ 		"character": "Count",
+		"name": "count"
+ 	},
+ 	"241": {
+ 		"character": "Kaori",
+		"name": "kaori"
+ 	},
+ 	"242": {
+ 		"character": "Tony",
+		"name": "tony"
+ 	},
+ 	"243": {
+ 		"character": "Part-timer",
+		"name": "part-timer"
+ 	},
+ 	"244": {
+ 		"character": "Bro",
+		"name": "bikini_line_npc"
+ 	},
+ 	"245": {
+ 		"character": "Employee",
+		"name": "giga_macho_npc"
+ 	},
+ 	"246": {
+ 		"character": "Manager",
+		"name": "mu_continent_npc"
+ 	},
+ 	"247": {
+ 		"character": "Garcon Soejima",
+		"name": "cleir_de_lune_npc"
+ 	},
+ 	"248": {
+ 		"character": "Mannequin",
+		"name": "rosa_candida_npc_aoba"
+ 	},
+ 	"249": {
+ 		"character": "Esthetician",
+		"name": "etheria_npc"
+ 	},
+ 	"250": {
+ 		"character": "Lazy Boy",
+		"name": "w.slash_npc"
+ 	},
+ 	"251": {
+ 		"character": "Rumormonger Barkeeper",
+		"name": "jolly_roger_npc"
+ 	},
+ 	"252": {
+ 		"character": "Reiko",
+		"name": "hiiragi_npc"
+ 	},
+ 	"253": {
+ 		"character": "Satomi Sister",
+		"name": "satomi_tadashi_npc"
+ 	},
+ 	"254": {
+ 		"character": "Miscellaneous",
+		"name": "cellphone"
+ 	},
+ 	"255": {
+ 		"character": "Miscellaneous",
+		"name": "flower_iris"
+ 	},
+ 	"256": {
+ 		"character": "Miscellaneous",
+		"name": "flower_achillea"
+ 	},
+ 	"257": {
+ 		"character": "Miscellaneous",
+		"name": "flower_thoroughwort"
+ 	},
+ 	"258": {
+ 		"character": "Miscellaneous",
+		"name": "flower_salvia"
+ 	},
+ 	"259": {
+ 		"character": "Miscellaneous",
+		"name": "flower_nemophila"
+ 	},
+ 	"260": {
+ 		"character": "Miscellaneous",
+		"name": "flower_raspberry"
+ 	},
+ 	"261": {
+ 		"character": "Miscellaneous",
+		"name": "flower_aster_tataricus"
+ 	},
+ 	"262": {
+ 		"character": "Miscellaneous",
+		"name": "flower_primula"
+ 	},
+ 	"263": {
+ 		"character": "Miscellaneous",
+		"name": "flower_sweat_pea"
+ 	},
+ 	"264": {
+ 		"character": "Miscellaneous",
+		"name": "lighter"
+ 	},
+ 	"265": {
+ 		"character": "Miscellaneous",
+		"name": "wristwatch"
+ 	},
+ 	"266": {
+ 		"character": "Miscellaneous",
+		"name": "transceiver"
+ 	},
+ 	"267": {
+ 		"character": "Miscellaneous",
+		"name": "bunbun"
+ 	},
+ 	"268": {
+ 		"character": "Miscellaneous",
+		"name": "sevens_emblem"
+ 	},
+ 	"269": {
+ 		"character": "Miscellaneous",
+		"name": "hard_drive"
+ 	},
+ 	"270": {
+ 		"character": "Jun Kashihara",
+		"name": "jun_regular"
+ 	},
+ 	"271": {
+ 		"character": "Jun Kashihara",
+		"name": "jun_sorrow"
+ 	},
+ 	"272": {
+ 		"character": "Jun Kashihara",
+		"name": "jun_surprised"
+ 	},
+ 	"273": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_regular"
+ 	},
+ 	"274": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_sorrow"
+ 	},
+ 	"275": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_surprised"
+ 	},
+ 	"276": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_idol_regular"
+ 	},
+ 	"277": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_idol_surprised"
+ 	},
+ 	"278": {
+ 		"character": "Eikichi Mishina",
+		"name": "eikichi_regular"
+ 	},
+ 	"279": {
+ 		"character": "Eikichi Mishina",
+		"name": "eikichi_anger"
+ 	},
+ 	"280": {
+ 		"character": "Eikichi Mishina",
+		"name": "eikichi_sorrow"
+ 	},
+ 	"281": {
+ 		"character": "Eikichi Mishina",
+		"name": "eikichi_narcistic"
+ 	},
+ 	"282": {
+ 		"character": "Yukino Mayuzumi",
+		"name": "yukino_regular"
+ 	},
+ 	"283": {
+ 		"character": "Yukino Mayuzumi",
+		"name": "yukino_anger"
+ 	},
+ 	"284": {
+ 		"character": "Yukino Mayuzumi",
+		"name": "yukino_surprised"
+ 	},
+ 	"285": {
+ 		"character": "Mannequin",
+		"name": "rosa_candida_npc_rengedai"
+ 	},
+ 	"286": {
+ 		"character": "Maya Amano",
+		"name": "maya_wink"
+ 	},
+ 	"287": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_rose"
+ 	},
+ 	"288": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_drunk"
+ 	},
+ 	"289": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_drunk"
+ 	},
+ 	"290": {
+ 		"character": "Lisa Silverman",
+		"name": "lisa_idol_sorrow"
+ 	},
+ 	"291": {
+ 		"character": "Ulala Serizawa",
+		"name": "ulala_shout"
+ 	},
+ 	"292": {
+ 		"character": "Katsuya Suou",
+		"name": "katsuya_shout"
+ 	},
+ 	"293": {
+ 		"character": "Baofu",
+		"name": "baofu_shout"
+ 	},
+ 	"294": {
+ 		"character": "Anna Yoshizaka",
+		"name": "anna_sorrow"
+ 	},
+ 	"295": {
+ 		"character": "Saeko Takami",
+		"name": "saeko_displeased"
+ 	},
+ 	"296": {
+ 		"character": "Youichi Makimura",
+		"name": "makimura_panic"
+ 	},
+	"297": {
+		"character": "Shiori Miyashiro",
+		"name": "shiori_regular"
+	},
+	"298": {
+		"character": "Shiori Miyashiro",
+		"name": "shiori_smile"
+	},
+	"299": {
+		"character": "Shiori Miyashiro",
+		"name": "shiori_anger"
+	}
+ }

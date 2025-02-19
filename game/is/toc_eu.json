@@ -1,0 +1,9 @@
+{
+  "event.bin": { "type": "event", "location": "0x8bbcb54" },
+  "syscg.bin": {
+    "type": "psp_arch",
+    "size": [
+      { "lo": "0x88688d4", "hi": "0x88688d0", "reg_hi": "s0", "reg_lo": "a1" }
+    ]
+  }
+}

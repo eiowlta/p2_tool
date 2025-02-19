@@ -1,0 +1,36 @@
+PSP Archive or par
+uint32_t num_entries
+then that many
+uint32_t len;
+
+header is padded to 16 bytes.  first file starts at ((num_entries+1)*4+0xf)&~0xf
+files are aligned to 16 bytes
+
+last file is seemingly always "PSPCHECK\r\n"  this is where I derived the PSP Archive name from
+
+event archive or ear
+used by event.bin and a few other files
+files seem to be sector aligned (2048)
+header consists of array of
+{
+    uint32_t start;
+    uint32_t end;
+}
+end is almost always identical to start of the next entry (ie sector aligned)
+sectors are zero padded
+must count to find number of files
+
+
+BNP: see bnp.txt
+
+Texture Archive or txar
+uint32_t num_entries
+then that many 
+uint32_t off;
+each file starts at that offset and runs to the next
+each pair of files is a pxl/clt
+
+sear
+similar to ear except duplicate entries are removed
+
+pdemo

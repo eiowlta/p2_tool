@@ -1,0 +1,3 @@
+miscellanious annoyances
+there are 2 card.bin.  one is the tarot card images and the other is playing cards for the casino.  this is why I include the cpk ids in the path.  an alternative would be to rename one of them but that would slightly complicate the cpk code
+the tarot card.bin has 2 tr_0.gim.  one was clearly supposed to be mt_0.  

@@ -1,0 +1,131 @@
+estr (event string)
+
+text encoding format used in events.  converted to fstr for rendering
+superset of ascii, but otherwise doesn't seem to have correspond well
+also has some not character options, ie element symbols
+are the element symbols f commands??
+sometimes 0x8041 (SJIS space) is used as space.  IS uses command for space
+
+fstr (font string)
+font is in syscg
+starting at 5.gim, 0xPPYX maps to (5+P).gim and then X/Y.  each character is 16x16
+F0 is seemingly 48.gim, others may or may not work
+there's also a second copy of the first page + two rows of the second that's "narrower".  it's used for some UI elements
+
+font roughly follows SJIS
+however there are some peculiarities. 
+page 0 (5.gim) has a "15" as a single character, used for platter/lucky ice cream buff
+several greek letters have been replaced with card suits.  they were mysteriously moved to 9.gim and reordered???
+page 3 (8.gim) has some characters used in tatsuyas scenario.  there's a small routine that remaps random characters to these.  whoever did this either didn't know about the estr2fstr table or wasn't allowed to modify it for some reason, so this was their solution to get the characters they need.
+characters used for replacement
+覧廃翌苺晴編損仙桃卵崖粉陣剤鎮幣
+升鈴懸鐘猛募漢叱芝諭撮契棄熱昇絆
+孝林寺粋贈位牡
+page 4 (9.gim) diverges a bit.  the greek letters were relocated here.  some added characters which seem to be mostly chinese or otherwise very rare
+another music note is also inserted here
+page 21 (26.gim) 葹 is replaced with °??
+the last page starting on the 3rd row has the ba gua, plus several more chinese characters
+
+there is also an internal fstr to utf8 table, but it doesn't 100% match
+
+technically all the syscg files are accessible in this manner
+the icons are accessible using a font map style encoding at page 0x2b. 
+the icons use less horizontal space this way versus the commands
+the narrow font is also accessible dirctly at 26, but it's impossible to address the last two rows and it's not variable width
+
+
+fstr commands in ep
+
+ff03 newline
+ff04 half newline
+ffff terminator
+
+ff20 white font #ffffff, seemnigly unused
+ff21 white font #ffffff, mainly used
+ff22 green font #00ff99
+ff23 teal font #00ffff
+ff24 yellow font #ffff32
+ff25 purple font #5c0dff
+ff26 gray font #xe6e6e6
+ff27 lime font #27e072
+ff28 black font #000000
+ff29 orange font #ff8419
+ff2a pink font #ff52ff
+ff2b green font #00ff99, seemingly unused, duplicate of 22
+ff2c dark_green font #157b35
+ff2d teal font #00ffff
+ff2e light_blue font #3184ff
+ff2f white font #ffffff, seemingly unused
+ff30 white font #ffffff, semmingly unused
+ff31 white font #ffffff, seemingly unused
+ff32 white font #ffffff, seemingly unused
+ff33 white font #ffffff, seemingly unused
+ff34 white font #ffffff, seemingly unused
+ff35 white font #ffffff, seemingly unused
+ff36 white font #ffffff, seemingly unused
+
+ff10 suou
+ff11 tatsuya
+ff12 tatsu
+ff13-fffd (used to display variable text, set by script or elsewhere. *NOT* the same as the message script variables)
+
+
+ff40 item icon
+ff41 item icon
+ff42 cd icon
+ff43 card icon
+ff44 key icon
+ff45 sword icon
+ff46 coin icon
+ff47 rapier icon
+ff48 gun icon
+ff49 fist icon
+ff4a map icon
+ff4b helmet icon
+ff4c armor icon
+ff4d leg icon
+ff4e accessory icon
+ff4f item icon, unused?
+ff50 fire icon
+ff51 water icon
+ff52 wind icon
+ff53 earth icon
+ff54 ice icon
+ff55 electric icon
+ff56 nuclear icon
+ff57 almighty icon
+ff58 holy icon
+ff59 dark icon
+ff5a nerve icon
+ff5b mind icon
+ff5c heal icon
+ff5d support icon
+ff5e item icon, unused?
+ff5f item icon, unused?
+ff60 utility icon
+ff61 item icon, unused?
+
+
+
+event to font
+685
+6c8
+6c9
+9ac
+9ad
+
+776
+777
+779
+77a
+77b
+a28
+aa3
+all seem to be unassigned? at least they are mapped to nonsense values and show up as empty space in game
+free for use
+
+
+
+
+estr commands
+wait actually resets xy 

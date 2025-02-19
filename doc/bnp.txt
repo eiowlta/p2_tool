@@ -1,0 +1,16 @@
+
+
+
+file header:
+uint8_t type;
+uint8_t compression;
+uint16_t tag;
+
+Compression:
+None
+
+RLE
+
+
+
+LZSS

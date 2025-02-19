@@ -1,0 +1,103 @@
+{
+  "type": {
+    "struct": [
+      {
+        "name": "imageID",
+        "size": 4,
+        "value": 132
+      },
+      {
+        "name": "x",
+        "size": 4,
+        "value": "x"
+      },
+      {
+        "name": "y",
+        "size": 4,
+        "value": "y"
+      },
+      {
+        "name": "w",
+        "size": 4,
+        "value": "w"
+      },
+      {
+        "name": "h",
+        "size": 4,
+        "value": "w"
+      },
+      {
+        "name": "left",
+        "size": 4,
+        "value": 4
+      },
+      {
+        "name": "top",
+        "size": 4,
+        "value": 0
+      },
+      {
+        "name": "textLeft",
+        "size": 4,
+        "value": 100
+      },
+      {
+        "name": "textTop",
+        "size": 4,
+        "value": 4
+      }
+    ]
+  },
+  "images": [
+    [
+      { "name": "command", "type": "struct", "addr": "8caed88" },
+      { "name": "status", "type": "struct", "addr": "8caedac" },
+      { "name": "item", "type": "struct", "addr": "8caedd0" },
+      { "name": "battle", "type": "struct", "addr": "8caedf4" },
+      { "name": "guard", "type": "struct", "addr": "8caee18" },
+      { "name": "result", "type": "struct", "addr": "8caee3c" },
+      { "name": "analysis", "type": "struct", "addr": "8caee60" },
+      { "name": "skill", "type": "struct", "addr": "8caee84" },
+      { "name": "link_skill", "type": "struct", "addr": "8caeea8" },
+      { "name": "attack", "type": "struct", "addr": "8caeecc" },
+      { "name": "order", "type": "struct", "addr": "8caeef0" },
+      { "name": "auto", "type": "struct", "addr": "8caef14" },
+      { "name": "contact", "type": "struct", "addr": "8caef38" },
+      { "name": "persona", "type": "struct", "addr": "8caef5c" },
+      { "name": "equip", "type": "struct", "addr": "8caef80" },
+      { "name": "use_item", "type": "struct", "addr": "8caefa4" },
+      { "name": "event_item", "type": "struct", "addr": "8caefc8" },
+      { "name": "config", "type": "struct", "addr": "8caefec" },
+      { "name": "card", "type": "struct", "addr": "8caf010" },
+      { "name": "entry", "type": "struct", "addr": "8caf034" },
+      { "name": "gallery", "type": "struct", "addr": "8caf058" },
+      { "name": "conditions", "type": "struct", "addr": "8caf07c" },
+      { "name": "sync_skill", "type": "struct", "addr": "8caf0a0" },
+      { "name": "tool_menu", "type": "struct", "addr": "8caf0c4" },
+      { "name": "new_quest", "type": "struct", "addr": "8caf0e8" },
+      { "name": "phase_edit", "type": "struct", "addr": "8caf10c" },
+      { "name": "enemy_edit", "type": "struct", "addr": "8caf130" },
+      { "name": "npc_edit", "type": "struct", "addr": "8caf154" },
+      { "name": "event_edit", "type": "struct", "addr": "8caf178" },
+      { "name": "system", "type": "struct", "addr": "8caf19c" },
+      { "name": "quest_menu", "type": "struct", "addr": "8caf1c0" },
+      { "name": "quest_room", "type": "struct", "addr": "8caf1e4" },
+      { "name": "contract", "type": "struct", "addr": "8caf208" },
+      { "name": "strategy", "type": "struct", "addr": "8caf22c" },
+      { "name": "town_map", "type": "struct", "addr": "8cb090c" },
+      { "name": "city_map", "type": "struct", "addr": "8cb0930" },
+      { "name": "shopping_mall", "type": "struct", "addr": "8cb0954" },
+      { "name": "auto_map", "type": "struct", "addr": "8d19b34" },
+      {
+        "name": "music",
+        "type": "patch",
+        "patches": [
+          { "name": "x", "size": 2, "addr": "887ae40" },
+          { "name": "y", "size": 2, "addr": "887ae44" },
+          { "name": "w", "size": 2, "addr": "887ae4c" },
+          { "name": "h", "size": 2, "addr": "887ae54" }
+        ]
+      }
+    ]
+  ]
+}

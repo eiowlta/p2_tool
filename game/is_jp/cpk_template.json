@@ -1,0 +1,536 @@
+{
+  "type": "cpk",
+  "templates": {
+    "sprite": {
+      "type": "bnp",
+      "files": {
+        "0_0000": "spg",
+        "1_0000": "asg",
+        "2_0000": "tmd",
+        "3_0000": "tod",
+        "4_0000": "pxl",
+        "5_0000": "clt"
+      }
+    },
+    "sprite2": {
+      "type": "bnp",
+      "files": {
+        "0_0000": "efct",
+        "1_0000": "pxl",
+        "2_0000": "clt"
+      }
+    },
+    "sprite4": {
+      "type": "bnp",
+      "group": 4,
+      "resetOnTagChange": true,
+      "groups": ["auto", "clt", "spg", "asg"]
+    },
+    "sprite3": {
+      "type": "bnp",
+      "group": 4,
+      "groups": ["spg", "asg", "pxl", "clt"]
+    },
+    "dungeon": {
+      "type": "bnp",
+      "groups": ["dng", "tod2", "txar2", "psxaudio", "psxaudio"]
+    },
+    "dungeon2": {
+      "type": "bnp",
+      "file_template": "gim",
+      "files": {
+        "0_0000": "dng",
+        "1_0001": "tod2",
+        "2_0002": "txar2"
+      }
+    },
+    "audio": {
+      "type": "par",
+      "file_template": "unk",
+      "files": {
+        "0": "phd",
+        "1": "pbd"
+      }
+    },
+    "audioef": {
+      "type": "par",
+      "file_template": "unk",
+      "files": {
+        "0": "phd",
+        "1": "pbd",
+        "2": "pef"
+      }
+    },
+    "event": {
+      "type": "par",
+      "file_template": "unk",
+      "files": {
+        "0": "txar",
+        "1": "smd",
+        "8": "efb"
+      }
+    },
+    "mmap": {
+      "type": "bnp",
+      "file_template": "gim",
+      "bnp_pattern": "mmap"
+    }
+  },
+  "bnp_patterns": {
+    "PLAYER": {
+      "200": "cfb",
+      "310": "gim"
+    },
+    "EBG": {
+      "1": "txar",
+      "2": "smd"
+    },
+    "BPLY": {
+      "0": "gim",
+      "1": "clt",
+      "4": "gim",
+      "5": "clt"
+    },
+    "unit": {
+      "1": "clt",
+      "2": "spg",
+      "3": "asg"
+    },
+    "dpk": {
+      "0": "gim",
+      "1": "clt",
+      "2": "spg",
+      "3": "asg"
+    },
+    "mmap": {
+      "800": "efb",
+      "70*": "unk",
+      "3": "asg"
+    }
+  },
+  "file_template": { "type": "auto" },
+  "files": {
+    "0_datapack.bin": { "type": "par", "file_template": "gim" },
+    "1_cut_in.bin": { "type": "par", "file_template": "gim" },
+    "2_edit.bin": { "type": "par", "file_template": "gim" },
+    "3_edit_floor.bin": {
+      "type": "ear",
+      "compressed": true,
+      "file_template": "gim"
+    },
+    "4_cm_menu.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "5_entry.bin": { "type": "par", "file_template": "gim" },
+    "6_gallerycg.bin": {
+      "type": "par",
+      "file_template": { "type": "gim" }
+    },
+    "7_map_w.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "8_ch_menu.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "9_card.bin": {
+      "extractName": "tarot.bin",
+      "type": "ear",
+      "compressed": true,
+      "file_template": { "type": "gim" }
+    },
+    "10_NEW_EBG.BNP": {
+      "type": "bnp",
+      "group": 7,
+      "groups": ["txar", "smd", "unk", "unk", "unk", "unk", "unk"]
+    },
+    "11_bt_menu.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "12_ss_icon0.png": "png",
+    "13_ss_pic1.png": "png",
+    "14_syscg.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "15_btef.bin": { "type": "par", "file_template": "gim" },
+    "16_bstup.bin": {
+      "type": "ear",
+      "compressed": true,
+      "file_template": { "type": "gim" }
+    },
+    "17_advcg.bin": { "type": "par", "file_template": "gim" },
+    "18_EFCTALL.BIN": {
+      "type": "ear",
+      "file_template": {
+        "type": "sprite"
+      }
+    },
+    "1000_F0849.BIN": {
+      "type": "bnp",
+      "group": 1,
+      "file_template": "efct",
+      "files": { "9_0200": "pxl", "10_0201": "clt" }
+    },
+    "1001_SE_BTL.BIN": {
+      "type": "audio"
+    },
+    "1002_F_BE.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "groups": ["efb", "tim", "psxaudio"]
+    },
+    "1003_F_BG_DT.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "groups": ["cltdat", "pxldat"]
+    },
+    "1004_F_BG_TM.BNP": {
+      "type": "bnp",
+      "group": 2,
+      "groups": ["tim", "unk"]
+    },
+    "1005_F_MGC_PK.BNP": {
+      "type": "bnp",
+      "group": 8,
+      "groups": ["spg", "asg", "pxl", "clt", "psxaudio", "unk", "unk", "tmd"]
+    },
+    "1006_SE_MGC.BIN": {
+      "type": "ear",
+      "file_template": {
+        "type": "audio"
+      }
+    },
+    "1007_P2P_BPLY.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "groups": ["gim", "unk", "unk", "unk", "gim", "unk", "unk"],
+      "lowerTag": true,
+      "resetOnTagZero": true,
+      "files": {
+        "0_0000": "unk",
+        "1_0001": "unk",
+        "2_0002": {
+          "type": "gim"
+        },
+        "3_0003": "unk",
+        "4_0004": "gim",
+        "5_0005": "unk"
+      }
+    },
+    "1008_SE_PLY.BIN": {
+      "type": "ear",
+      "file_template": {
+        "type": "audio"
+      }
+    },
+    "1009_P2P_DPF.BNP": {
+      "type": "sprite4"
+    },
+    "1010_P2P_DPK.BNP": {
+      "type": "bnp",
+      "group": 4,
+      "bnp_pattern": "dpk"
+    },
+    "1011_SE_DVL.BIN": {
+      "type": "ear",
+      "file_template": {
+        "type": "audio"
+      }
+    },
+    "1012_result.bin": { "type": "par", "file_template": "gim" },
+    "1013_TM_EVE.BNP": {
+      "type": "bnp",
+      "group": 1
+    },
+    "1014_TM_UNIT.BNP": { "type": "bnp", "group": 1 },
+    "2000_bingo.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2001_bj.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2002_card.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2003_ca_cmn.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2004_ca_face.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2005_ca_hlp.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2006_poker.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "2007_slot.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "3000_credit.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "4000_namedic_dat.bin": "unk",
+    "4001_messdic_dat.bin": "unk",
+    "5000_DNGCOM.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "file_template": "gim",
+      "files": {
+        "4_0004": "unk",
+        "5_0005": "unk",
+        "7_0007": "unk",
+        "8_0008": "unk"
+      }
+    },
+    "5001_DNGSCN.BNP": { "type": "bnp", "file_template": "efb" },
+    "5002_SE_DNG.BIN": {
+      "type": "ear",
+      "file_template": "audioef"
+    },
+    "5003_dunchar.bin": {
+      "type": "par",
+      "file_template": "gim",
+      "files": { "0": "spg", "1": "asg" }
+    },
+    "5004_DUN27.BNP": "dungeon2",
+    "5005_DUN28.BNP": "dungeon2",
+    "5006_DUN29.BNP": "dungeon2",
+    "5007_DUN2A.BNP": "dungeon2",
+    "5008_DUN2B.BNP": "dungeon2",
+    "5009_DUN2C.BNP": "dungeon2",
+    "5010_F0097.BIN": "dungeon",
+    "5011_F0098.BIN": "dungeon",
+    "5012_F0099.BIN": "dungeon",
+    "5013_F0100.BIN": "dungeon",
+    "5014_F0101.BIN": "dungeon",
+    "5015_F0102.BIN": "dungeon",
+    "5016_F0103.BIN": "dungeon",
+    "5017_F0104.BIN": "dungeon",
+    "5018_F0105.BIN": "dungeon",
+    "5019_F0106.BIN": "dungeon",
+    "5020_F0107.BIN": "dungeon",
+    "5021_F0108.BIN": "dungeon",
+    "5022_F0109.BIN": "dungeon",
+    "5023_F0110.BIN": "dungeon",
+    "5024_F0111.BIN": "dungeon",
+    "5025_F0112.BIN": "dungeon",
+    "5026_F0113.BIN": "dungeon",
+    "5027_F0114.BIN": "dungeon",
+    "5028_F0115.BIN": "dungeon",
+    "5029_F0116.BIN": "dungeon",
+    "5030_F0117.BIN": "dungeon",
+    "5031_F0118.BIN": "dungeon",
+    "5032_F0119.BIN": "dungeon",
+    "5033_F0120.BIN": "dungeon",
+    "5034_F0121.BIN": "dungeon",
+    "5035_F0122.BIN": "dungeon",
+    "5036_F0123.BIN": "dungeon",
+    "5037_F0124.BIN": "dungeon",
+    "5038_F0125.BIN": "dungeon",
+    "5039_F0126.BIN": "dungeon",
+    "5040_F0127.BIN": "dungeon",
+    "5041_F0128.BIN": "dungeon",
+    "5042_F0129.BIN": "dungeon",
+    "5043_F0130.BIN": "dungeon",
+    "5044_F0131.BIN": "dungeon",
+    "5045_F0132.BIN": "dungeon",
+    "5046_F0133.BIN": "dungeon",
+    "5047_F0134.BIN": "dungeon",
+    "5048_F0135.BIN": "dungeon",
+    "5049_F0136.BIN": "dungeon",
+    "5006_F0097.BIN": "dungeon",
+    "5007_F0098.BIN": "dungeon",
+    "5008_F0099.BIN": "dungeon",
+    "5009_F0100.BIN": "dungeon",
+    "5010_F0101.BIN": "dungeon",
+    "5011_F0102.BIN": "dungeon",
+    "5012_F0103.BIN": "dungeon",
+    "5013_F0104.BIN": "dungeon",
+    "5014_F0105.BIN": "dungeon",
+    "5015_F0106.BIN": "dungeon",
+    "5016_F0107.BIN": "dungeon",
+    "5017_F0108.BIN": "dungeon",
+    "5018_F0109.BIN": "dungeon",
+    "5019_F0110.BIN": "dungeon",
+    "5020_F0111.BIN": "dungeon",
+    "5021_F0112.BIN": "dungeon",
+    "5022_F0113.BIN": "dungeon",
+    "5023_F0114.BIN": "dungeon",
+    "5024_F0115.BIN": "dungeon",
+    "5025_F0116.BIN": "dungeon",
+    "5026_F0117.BIN": "dungeon",
+    "5027_F0118.BIN": "dungeon",
+    "5028_F0119.BIN": "dungeon",
+    "5029_F0120.BIN": "dungeon",
+    "5030_F0121.BIN": "dungeon",
+    "5031_F0122.BIN": "dungeon",
+    "5032_F0123.BIN": "dungeon",
+    "5033_F0124.BIN": "dungeon",
+    "5034_F0125.BIN": "dungeon",
+    "5035_F0126.BIN": "dungeon",
+    "5036_F0127.BIN": "dungeon",
+    "5037_F0128.BIN": "dungeon",
+    "5038_F0129.BIN": "dungeon",
+    "5039_F0130.BIN": "dungeon",
+    "5040_F0131.BIN": "dungeon",
+    "5041_F0132.BIN": "dungeon",
+    "5042_F0133.BIN": "dungeon",
+    "5043_F0134.BIN": "dungeon",
+    "5044_F0135.BIN": "dungeon",
+    "5045_F0136.BIN": "dungeon",
+    "5046_F0137.BIN": "dungeon",
+    "5047_F0138.BIN": "dungeon",
+    "5048_F0139.BIN": "dungeon",
+    "5049_F0140.BIN": "dungeon",
+    "5050_F0141.BIN": "dungeon",
+    "5051_F0142.BIN": "dungeon",
+    "5052_F0143.BIN": "dungeon",
+    "5053_F0144.BIN": "dungeon",
+    "5054_F0145.BIN": "dungeon",
+    "5055_F0146.BIN": "dungeon",
+    "5056_F0147.BIN": "dungeon",
+    "5057_F0148.BIN": "dungeon",
+    "5058_F0151.BIN": "dungeon",
+    "5059_F0152.BIN": "dungeon",
+    "5060_F0153.BIN": "dungeon",
+    "5061_F0154.BIN": "dungeon",
+    "5062_F0155.BIN": "dungeon",
+    "5063_F0156.BIN": "dungeon",
+    "5064_F0161.BIN": "dungeon2",
+    "5065_F0162.BIN": "dungeon2",
+    "5066_F0163.BIN": "dungeon2",
+    "5067_F0164.BIN": "dungeon2",
+    "5068_F0165.BIN": "dungeon2",
+    "5069_F0166.BIN": "dungeon2",
+    "5070_DNGFE.BNP": "dungeon",
+    "5071_DNGFF.BNP": "dungeon",
+    "6000_event.bin": {
+      "type": "ear",
+      "compressed": true,
+      "file_template": "event"
+    },
+    "6001_EVTBG.BNP": {
+      "type": "bnp",
+      "file_template": "gim",
+      "group": 1
+    },
+    "6002_evttod.bnp": { "type": "bnp", "group": 1 },
+    "7000_EVTUNIT2.BNP": "sprite4",
+    "7001_EVTUNIT.BNP": "sprite4",
+    "7002_SE_EVT.BIN": {
+      "type": "ear",
+      "file_template": {
+        "type": "par",
+        "file_template": "unk"
+      }
+    },
+    "7003_m_ef00.gim": { "type": "gim" },
+    "7004_m_ef00a.gim": { "type": "gim" },
+    "8000_LMAP.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "file_template": "gim"
+    },
+    "8001_MCHAR.BNP": {
+      "type": "bnp",
+      "group": 1,
+      "file_template": "gim"
+    },
+    "8002_MMAP01.BNP": "mmap",
+    "8003_MMAP02.BNP": "mmap",
+    "8004_MMAP03.BNP": "mmap",
+    "8005_MMAP04.BNP": "mmap",
+    "8006_MMAP05.BNP": "mmap",
+    "8007_MMAP06.BNP": "mmap",
+    "9000_q00.bin": {
+      "type": "ear",
+      "file_template": "unk"
+    },
+    "10000_img_bunner.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "10001_img_shop.bin": "par",
+    "10002_CD_SHOP.BIN": { "type": "par", "files": { "0": "efb" } },
+    "11000_titlecg.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "11001_kiyaku.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "12000_P_DEMO.BNP": { "type": "pdemo" },
+    "12001_SMN_EFFE.BNP": {
+      "type": "bnp",
+      "files": {
+        "0": "gim",
+        "1": "clt",
+        "2": "gim",
+        "3": "clt",
+        "4": "tmd",
+        "5": "tod",
+        "6": "tmd",
+        "7": "tod",
+        "8": "gim",
+        "9": "clt"
+      }
+    },
+    "12002_MUT_EFFE.BNP": {
+      "type": "bnp",
+      "files": {
+        "0": "gim",
+        "1": "clt",
+        "2": "gim",
+        "3": "clt",
+        "4": "tmd",
+        "5": "tod",
+        "6": "tmd",
+        "7": "tod"
+      }
+    },
+    "12003_img_velvet.bin": {
+      "type": "par",
+      "file_template": "gim"
+    },
+    "12004_SE_VEL1.BIN": "audio",
+    "12005_SE_VEL2.BIN": "audio",
+    "12006_SE_VEL3.BIN": "audio",
+    "12007_SE_TIMEA_00.BIN": "audio",
+    "12008_SE_TIMEA_01.BIN": "audio",
+    "13000_SE_QUEST.BIN": {
+      "type": "audioef",
+      "file_template": "audioef"
+    },
+    "13001_SE_STATIC.BIN": {
+      "type": "par",
+      "files": {
+        "0": "phd",
+        "1": "pbd",
+        "2": "phd",
+        "4": "pbd"
+      }
+    },
+    "13002_SE_SYS.BIN": "audioef",
+    "13003_SE_ENC.BIN": "audioef",
+    "13004_SE_BINGO.BIN": "audioef",
+    "13005_SE_BJ.BIN": "audioef",
+    "13006_SE_POKER.BIN": "audioef",
+    "13007_SE_SLOT.BIN": "audioef",
+    "14000_ADDBIN.BIN": "unk"
+  }
+}

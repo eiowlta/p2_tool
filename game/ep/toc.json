@@ -1,0 +1,140 @@
+{
+  "event.bin": {
+    "type": "event",
+    "location": "0x8c570c4"
+  },
+  "SE_DNG.BIN": {
+    "type": "event",
+    "location": "0x8c4c960"
+  },
+  "DNGSCN.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8d15338"
+  },
+  "_PLAYER.BNP": {
+    "type": "bnp_sector_files",
+    "location": "0x8d029f8"
+  },
+  "_ENEMY.BNP": {
+    "type": "bnp_files_off32",
+    "location": "0x8d03768"
+  },
+  "_PERSONA.BNP": {
+    "type": "bnp_files_off32",
+    "location": "0x8d028ec"
+  },
+  "MMAP01.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb0464"
+  },
+  "MMAP02.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb03bc"
+  },
+  "MMAP03.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb0314"
+  },
+  "MMAP04.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb0244"
+  },
+  "MMAP05.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb01a4"
+  },
+  "MMAP06.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb0114"
+  },
+  "MMAP07.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8cb00f4"
+  },
+  "P_DEMO.BNP": {
+    "type": "bnp_files_off32",
+    "location": ["0x8d2d890", "0x8d2e5f0"]
+  },
+  "EVTBG.BNP": {
+    "type": "bnp_sector_files",
+    "location": ["0x8cbe754"]
+  },
+  "F_BE.BNP": {
+    "type": "bnp_sector_files",
+    "location": "0x8cf3588"
+  },
+  "CD_SHOP.BIN": {
+    "type": "psp_arch",
+    "size": [
+      {
+        "lo": "0x8a9b994",
+        "reg": "t0"
+      },
+      {
+        "lo": "0x8a9b998",
+        "reg": "v0"
+      }
+    ]
+  },
+  "syscg.bin": {
+    "type": "psp_arch",
+    "size": { "lo": "0x8864650", "hi": "0x8864648", "reg": "a1" }
+  },
+  "cm_menu.bin": {
+    "type": "psp_arch",
+    "size": { "lo": "0x886468c", "hi": "0x8864688", "reg": "a1" }
+  },
+  "ch_menu.bin": {
+    "type": "psp_arch",
+    "size": { "lo": "0x8864670", "hi": "0x886466c", "reg": "a1" }
+  },
+  "bt_menu.bin": {
+    "type": "psp_arch",
+    "size": { "lo": "0x88646a8", "reg": "a1" }
+  },
+  "img_velvet.bin": {
+    "type": "psp_arch",
+    "size": [
+      { "lo": "0x8ae321c", "hi": "0x8ae3214", "reg": "t0" },
+      { "hi": "0x8ae32b8", "reg": "t0" }
+    ]
+  },
+  "img_bunner.bin": {
+    "type": "psp_arch",
+    "size": [{ "lo": "0x88fc800", "hi": "0x88fc7fc", "reg": "t0" }]
+  },
+  "img_shop.bin": {
+    "type": "psp_arch",
+    "size": [{ "lo": "0x8ae32cc", "reg": "t0" }]
+  },
+  "tarot.bin": {
+    "type": "event",
+    "location": "0x8c489c0"
+  },
+  "card.bin": {
+    "type": "psp_arch",
+    "size": [
+      { "hi": "0x88ba734", "lo": "0x88ba73c", "reg": "t0" },
+      { "hi": "0x88c0968", "lo": "0x88c0970", "reg": "t0" }
+    ]
+  },
+  "result.bin": {
+    "type": "psp_arch",
+    "size": [{ "lo": "0x8906318", "reg": "t0" }]
+  },
+  "titlecg.bin": {
+    "type": "psp_arch",
+    "size": [
+      { "hi": "0x8843f70", "lo": "0x8843f74", "reg": "t0" },
+      { "hi": "0x8841fe4", "lo": "0x8841fe8", "reg": "t0" }
+    ]
+  },
+  "ca_cmn.bin": {
+    "type": "psp_arch",
+    "size": [{ "hi": "0x88a9ba4", "lo": "0x88a9ba8", "reg": "t0" }]
+  },
+  "gallerycg.bin": {
+    "type": "psp_arch",
+    "size": [{ "hi": "0x8b66d38", "lo": "0x8b66d3c", "reg": "t0" }]
+  }
+}

@@ -1,0 +1,9 @@
+
+
+--
+font_strwidth2
+event_strwidth2
+
+neither handle commands.  originally they just count characters and multiply by 0xe
+
+--

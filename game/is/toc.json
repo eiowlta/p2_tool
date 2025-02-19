@@ -1,0 +1,44 @@
+{
+  "event.bin": {
+    "type": "event",
+    "location": "0x8bbc910"
+  },
+  "syscg.bin": {
+    "type": "psp_arch",
+    "size": [
+      { "lo": "0x88686f4", "hi": "0x88686f0", "reg_hi": "s0", "reg_lo": "a1" }
+    ]
+  },
+  "cm_menu.bin": {
+    "type": "psp_arch",
+    "size": [{ "lo": "0x886872c", "hi": "0x8868728", "reg": "a1" }]
+  },
+  "DNGSCN.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c79f90"
+  },
+  "MMAP01.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d5f8"
+  },
+  "MMAP02.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d538"
+  },
+  "MMAP03.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d488"
+  },
+  "MMAP04.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d3e0"
+  },
+  "MMAP05.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d3c0"
+  },
+  "MMAP06.BNP": {
+    "type": "bnp_sector",
+    "location": "0x8c1d338"
+  }
+}
