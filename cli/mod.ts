@@ -181,59 +181,59 @@ const args = yargs(hideBin(process.argv))
       }
     }
   )
-  // .command(
-  //   "extractAll <iso>",
-  //   false,
-  //   (yargs) =>
-  //     yargs
-  //       .positional("iso", {
-  //         type: "string",
-  //         describe: "iso",
-  //         demandOption: true,
-  //         normalize: true,
-  //       })
-  //       .option("output", {
-  //         type: "string",
-  //         describe: "output",
-  //         alias: "o",
-  //         demandOption: true,
-  //         normalize: true,
-  //       })
-  //       .option("game", {
-  //         type: "string",
-  //         demandOption: true,
-  //         alias: "g",
-  //         choices: ["is", "ep"],
-  //       })
-  //       .option("locale", {
-  //         type: "string",
-  //         demandOption: false,
-  //         default: "jp",
-  //       }),
-  //   async (args) => {
-  //     // const input = await readBinaryFile(args.eboot);
-  //     let game: Game = args.game as Game;
-  //     let gameContextIso: GameContext = {
-  //       game,
-  //       locale: await loadLocale(
-  //         fromTools(`game/${game}/encoding/${args.locale}`)
-  //       ),
-  //       constants: {},
-  //     };
-  //     await loadScriptConstants(gameContextIso);
+  .command(
+    "extractAll <iso>",
+    false,
+    (yargs) =>
+      yargs
+        .positional("iso", {
+          type: "string",
+          describe: "iso",
+          demandOption: true,
+          normalize: true,
+        })
+        .option("output", {
+          type: "string",
+          describe: "output",
+          alias: "o",
+          demandOption: true,
+          normalize: true,
+        })
+        .option("game", {
+          type: "string",
+          demandOption: true,
+          alias: "g",
+          choices: ["is", "ep"],
+        })
+        .option("locale", {
+          type: "string",
+          demandOption: false,
+          default: "jp",
+        }),
+    async (args) => {
+      // const input = await readBinaryFile(args.eboot);
+      let game: Game = args.game as Game;
+      let gameContextIso: GameContext = {
+        game,
+        locale: await loadLocale(
+          fromTools(`game/${game}/encoding/${args.locale}`)
+        ),
+        constants: {},
+      };
+      await loadScriptConstants(gameContextIso);
 
-  //     // let isoName = basename(args.iso);
+      // let isoName = basename(args.iso);
 
-  //     let isoInfo = JSON.parse(
-  //       await readTextFile(fromTools(`game/${game}/iso.json`))
-  //     );
-  //     augmentInfo(isoInfo);
+      let isoInfo = JSON.parse(
+        await readTextFile(fromTools(`game/${game}/iso.json`))
+      );
+      augmentInfo(isoInfo);
 
-  //     // let clean_base = await extractISO(args.iso, joinPath(args.output));
+      // let clean_base = await extractISO(args.iso, joinPath(args.output));
 
-  //     await extractAll(isoInfo, args.iso, args.output, gameContextIso);
-  //   }
-  // )
+      await extractAll(isoInfo, args.iso, args.output, gameContextIso);
+    }
+  )
   .demandCommand()
   .strict()
   .showHelpOnFail(true)

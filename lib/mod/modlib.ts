@@ -685,7 +685,7 @@ export const patchEboot = async (
 
   const relocInfo_in = JSON.parse(
     await readTextFile(
-      `game/${gameCtx.game}/eboot_references${variantSuffix}.json`
+      fromTools(`game/${gameCtx.game}/eboot_references${variantSuffix}.json`)
     )
   );
   // let modInfo = JSON.parse(await readTextFile(joinPath(path, "mod.json")));
@@ -819,7 +819,7 @@ export const patchEboot = async (
   mips.section("eboot");
   console.log(`Updating TOC`);
 
-  let tocs = JSON.parse(await readTextFile(`game/${gameCtx.game}/toc${variantSuffix}.json`));
+  let tocs = JSON.parse(await readTextFile(fromTools(`game/${gameCtx.game}/toc${variantSuffix}.json`)));
   await applyTOC(tocs, buildDir, mips);
 
   mips.section("mod");

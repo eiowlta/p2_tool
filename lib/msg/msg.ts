@@ -275,7 +275,7 @@ export const parseMessageBinary = (
     // console.log(next.toString(16), current_str);
     if (next == ctx.terminator) break;
     // console.log(next.toString(16));
-    if ((next & 0x8000) != 0) {
+    if ((next & 0xF000) != 0) {
       switch (ctx.encoding) {
         case EncodingScheme.event:
           {
