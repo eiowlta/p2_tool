@@ -77,7 +77,7 @@ import { trimWidth, pack } from "../lib/img/util";
  */
 
 const args = yargs(hideBin(process.argv))
-  .usage(`Tools for interacting with eboot`)
+  .usage(`Miscellaneous development oriented tools.  Not necessarily intended for use, may be broken.`)
   .command(
     "$0 <eboot>",
     false,
