@@ -11,69 +11,10 @@ import {
 } from "./mutex";
 
 export const DEFAULT_CHUNK_SIZE = 64 * 1024;
-// import { fs, path as pathlib } from "../std.ts";
-// import { Game } from "./context.ts";
-
-// const filePaths: Record<string, string> = {
-//   cwd: process.cwd(),
-// };
-
-// interface Config {
-//   game: Game;
-// }
-// const validateConfig = (obj: any): obj is Config => {
-//   if (obj.game != Game.EP && obj.game != Game.IS) {
-//     return false;
-//   }
-//   return true;
-// };
-
-// let config = {
-//   game: Game.EP,
-// };
-
-// export const getConfig = () => {
-//   return config;
-// };
-// export const loadGameFile = async (name: string) => {
-//   return await fs.readFile(
-//     pathlib.resolve(__dirname, "..", "..", "game", config.game, name),
-//     encoding
-//   );
-// };
-
-// export const init = async () => {
-//   //look for a config.json
-//   let dirs = [[process.cwd()], [__dirname, ".."]];
-//   let files = ["config.json"];
-//   for (let dir of dirs) {
-//     for (let file of files) {
-//       let path = pathlib.resolve(...dir, file);
-//       console.log(path);
-//       try {
-//         let contents = await fs.readFile(path, "utf-8");
-//         let conf = JSON.parse(contents);
-//         if (validateConfig(conf)) {
-//           config = conf;
-//           return config;
-//         } else {
-//           throw `Invalid config at ${pathlib.resolve(...dir, file)}`;
-//         }
-//       } catch {}
-//     }
-//   }
-//   throw `Unable to find config.json`;
-// };
-
-// export const addNamedPath = (name: string, base: string) => {
-//   filePaths[name] = pathlib.normalize(base);
-// };
 
 export interface FileType {
   handle: fs.FileHandle;
   lock: Mutex;
-  // locked: boolean;
-  // queue: (() => void)[];
 }
 
 export const lockFile = (file: FileType): Promise<void> => takeMutex(file.lock);
@@ -260,16 +201,16 @@ export const readDirSync = (path: string): string[] => {
 
 type DirEnt =
   | {
-      type: "file";
-      name: string;
-      modified: Date;
-    }
+    type: "file";
+    name: string;
+    modified: Date;
+  }
   | {
-      type: "folder";
-      name: string;
-      modified: Date;
-      files: DirEnt[];
-    };
+    type: "folder";
+    name: string;
+    modified: Date;
+    files: DirEnt[];
+  };
 export const readDirRecursive = async (path: string): Promise<DirEnt> => {
   let files = await readDir(path);
   let ret: DirEnt[] = [];
@@ -321,8 +262,9 @@ export const basename = pathlib.basename;
 export const joinPath = pathlib.join;
 export const dirname = pathlib.dirname;
 
-export const fromTools = (...path: string[]) => joinPath(libpath, ...path);
-// export const pipe = pipeline;
+export const fromTools = (...path: string[]) => {
+  return joinPath(libpath, ...path);
+}
 export { pipeline } from "stream/promises";
 
-export const libpath = joinPath(__dirname, "../../");
+export const libpath = joinPath(__dirname, `${__filename.endsWith(".js") ? '../' : ''}../../`);

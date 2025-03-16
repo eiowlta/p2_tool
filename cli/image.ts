@@ -100,8 +100,7 @@ const argv = yargs(hideBin(process.argv))
           case BlockType.Image:
           case BlockType.Palette:
             console.log(
-              `Found ${
-                block.blockId === BlockType.Palette ? "Palette" : "Image"
+              `Found ${block.blockId === BlockType.Palette ? "Palette" : "Image"
               }`
             );
             console.log(`BPP:\t${block.bpp}`);
@@ -173,6 +172,11 @@ const argv = yargs(hideBin(process.argv))
           demandOption: true,
           describe: "gim or png",
         })
+        .option('localePath', {
+          type: 'string',
+          normalize: true,
+          conflicts: ['game', 'encoding']
+        })
         .option("game", {
           type: "string",
           default: "ep",
@@ -217,7 +221,7 @@ const argv = yargs(hideBin(process.argv))
       }
       if (image == undefined) throw new Error(`No files specified`);
       let encoding = (
-        await loadLocale(
+        await loadLocale(args.localePath ??
           fromTools(`game/${args.game}/encoding/${args.encoding}`)
         )
       ).font;

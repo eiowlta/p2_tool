@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import * as vm2 from "vm2";
@@ -104,11 +105,13 @@ const args = yargs(hideBin(process.argv))
         variant: args.variant,
         constants: {},
       };
+      let localePath = joinPath(args.modpath, modInfo.locale);
+      if (modInfo.locale.length < 3) {
+        localePath = fromTools(`game/${modInfo.game}/encoding/${modInfo.locale}`);
+      }
       let gameContextMod: GameContext = {
         game: modInfo.game,
-        locale: await loadLocale(
-          fromTools(`game/${modInfo.game}/encoding/${modInfo.locale}`)
-        ),
+        locale: await loadLocale(localePath),
         variant: args.variant,
         constants: {},
       };
@@ -122,8 +125,7 @@ const args = yargs(hideBin(process.argv))
       let isoInfo = JSON.parse(
         await readTextFile(
           fromTools(
-            `game/${modInfo.game}/iso${
-              args.variant ? `_${args.variant}` : ""
+            `game/${modInfo.game}/iso${args.variant ? `_${args.variant}` : ""
             }.json`
           )
         )

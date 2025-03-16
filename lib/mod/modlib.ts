@@ -25,36 +25,13 @@ import {
   writeTextFile,
 } from "../util/filesystem";
 import { VFS, VFSEnt } from "./vfs";
-import * as ear from "../archive/ear";
-import * as par from "../archive/par";
-import * as bnp from "../archive/bnp";
-import { promisify } from "util";
-import { gunzip } from "zlib";
-import { parseBNPFile } from "../archive/bnp/file_types";
-import {
-  readCPKTOC,
-  extractFile as extractFileCpk,
-  createCPK,
-  addFileToCPK,
-  buildCPK,
-} from "../cpk/cpk";
-import { EncodingScheme, loadLocale } from "../util/encoding";
-import {
-  initScriptContext,
-  parseScriptBin,
-  scriptToString,
-} from "../event_script/escript";
-import { writeMessageFile } from "../msg/msg_file";
-import { MessageScriptContext } from "../msg/msg";
-import { dirname, resolve } from "path";
-import { decrypt_eboot } from "../decrypt/eboot";
-import { PSP_BASE, patchFileLoading } from "../elf/atlus_eboot";
+import { PSP_BASE } from "../elf/atlus_eboot";
 import {
   File,
   FileInfo,
   checkFileExistsOrTime,
   checkFileTime,
-  loadLastFile,
+
 } from "./file_types/common";
 import { typeLookup } from "./file_types";
 import { parseElf } from "../elf/types";

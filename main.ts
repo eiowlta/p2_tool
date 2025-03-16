@@ -1,6 +1,11 @@
-#!/usr/bin/env ts-node
-import * as filesystem from "./lib/util/filesystem";
-
-// filesystem.addNamedPath("game", "./ep");
-
-console.log('test');
+export * as archive from "./lib/archive/index";
+export * as contact_script from "./lib/contact_script/cscript";
+export * as event_script from "./lib/event_script/escript";
+export * as cpk from "./lib/cpk/cpk";
+export * as elf from "./lib/elf/index";
+export * as mips from "./lib/mips/mips";
+export * as img from "./lib/img/index";
+export * as iso from "./lib/iso/iso";
+export * as mod from "./lib/mod/index";
+export * as msg from "./lib/msg/msg";
+export * as util from "./lib/util/index";
